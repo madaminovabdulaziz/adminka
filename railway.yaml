@@ -2,8 +2,8 @@
 
 # Environment variables
 [env]
-NODE_ENV = "production"
-API_KEY = ""
+PORT = 3000
+
 
 # Build configuration
 [build]
