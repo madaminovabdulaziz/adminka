@@ -1,0 +1,10 @@
+# Example railway.toml for Vue.js project
+
+# Environment variables
+[env]
+NODE_ENV = "production"
+API_KEY = ""
+
+# Build configuration
+[build]
+command = "npm run build"
