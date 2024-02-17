@@ -1,0 +1,12 @@
+name = "my-project"
+
+# Define your services
+[[services]]
+internal = false
+memory = 256
+name = "frontend"
+port = 8080
+# Set the build command for your Vue.js application
+build = "npm run build"
+# Specify the directory where the built files are located
+deployment = "dist"
